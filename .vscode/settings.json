@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "iosfwd": "cpp",
+        "fstream": "cpp",
+        "chrono": "cpp",
+        "typeinfo": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp"
+    }
+}

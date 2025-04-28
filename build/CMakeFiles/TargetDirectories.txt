@@ -1,0 +1,7 @@
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/Tournoi.dir
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/edit_cache.dir
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/rebuild_cache.dir
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/list_install_components.dir
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/install.dir
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/install/local.dir
+/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles/install/strip.dir
