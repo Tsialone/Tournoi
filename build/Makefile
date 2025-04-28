@@ -198,6 +198,126 @@ src/Dept.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Dept.cpp.s
 .PHONY : src/Dept.cpp.s
 
+src/Joueur.o: src/Joueur.cpp.o
+.PHONY : src/Joueur.o
+
+# target to build an object file
+src/Joueur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Joueur.cpp.o
+.PHONY : src/Joueur.cpp.o
+
+src/Joueur.i: src/Joueur.cpp.i
+.PHONY : src/Joueur.i
+
+# target to preprocess a source file
+src/Joueur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Joueur.cpp.i
+.PHONY : src/Joueur.cpp.i
+
+src/Joueur.s: src/Joueur.cpp.s
+.PHONY : src/Joueur.s
+
+# target to generate assembly for a file
+src/Joueur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Joueur.cpp.s
+.PHONY : src/Joueur.cpp.s
+
+src/Phase.o: src/Phase.cpp.o
+.PHONY : src/Phase.o
+
+# target to build an object file
+src/Phase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Phase.cpp.o
+.PHONY : src/Phase.cpp.o
+
+src/Phase.i: src/Phase.cpp.i
+.PHONY : src/Phase.i
+
+# target to preprocess a source file
+src/Phase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Phase.cpp.i
+.PHONY : src/Phase.cpp.i
+
+src/Phase.s: src/Phase.cpp.s
+.PHONY : src/Phase.s
+
+# target to generate assembly for a file
+src/Phase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Phase.cpp.s
+.PHONY : src/Phase.cpp.s
+
+src/PhaseJoueur.o: src/PhaseJoueur.cpp.o
+.PHONY : src/PhaseJoueur.o
+
+# target to build an object file
+src/PhaseJoueur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o
+.PHONY : src/PhaseJoueur.cpp.o
+
+src/PhaseJoueur.i: src/PhaseJoueur.cpp.i
+.PHONY : src/PhaseJoueur.i
+
+# target to preprocess a source file
+src/PhaseJoueur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.i
+.PHONY : src/PhaseJoueur.cpp.i
+
+src/PhaseJoueur.s: src/PhaseJoueur.cpp.s
+.PHONY : src/PhaseJoueur.s
+
+# target to generate assembly for a file
+src/PhaseJoueur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.s
+.PHONY : src/PhaseJoueur.cpp.s
+
+src/Tournoi.o: src/Tournoi.cpp.o
+.PHONY : src/Tournoi.o
+
+# target to build an object file
+src/Tournoi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o
+.PHONY : src/Tournoi.cpp.o
+
+src/Tournoi.i: src/Tournoi.cpp.i
+.PHONY : src/Tournoi.i
+
+# target to preprocess a source file
+src/Tournoi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Tournoi.cpp.i
+.PHONY : src/Tournoi.cpp.i
+
+src/Tournoi.s: src/Tournoi.cpp.s
+.PHONY : src/Tournoi.s
+
+# target to generate assembly for a file
+src/Tournoi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Tournoi.cpp.s
+.PHONY : src/Tournoi.cpp.s
+
+src/TournoiPhase.o: src/TournoiPhase.cpp.o
+.PHONY : src/TournoiPhase.o
+
+# target to build an object file
+src/TournoiPhase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o
+.PHONY : src/TournoiPhase.cpp.o
+
+src/TournoiPhase.i: src/TournoiPhase.cpp.i
+.PHONY : src/TournoiPhase.i
+
+# target to preprocess a source file
+src/TournoiPhase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.i
+.PHONY : src/TournoiPhase.cpp.i
+
+src/TournoiPhase.s: src/TournoiPhase.cpp.s
+.PHONY : src/TournoiPhase.s
+
+# target to generate assembly for a file
+src/TournoiPhase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.s
+.PHONY : src/TournoiPhase.cpp.s
+
 src/UtilDb.o: src/UtilDb.cpp.o
 .PHONY : src/UtilDb.o
 
@@ -262,6 +382,21 @@ help:
 	@echo "... src/Dept.o"
 	@echo "... src/Dept.i"
 	@echo "... src/Dept.s"
+	@echo "... src/Joueur.o"
+	@echo "... src/Joueur.i"
+	@echo "... src/Joueur.s"
+	@echo "... src/Phase.o"
+	@echo "... src/Phase.i"
+	@echo "... src/Phase.s"
+	@echo "... src/PhaseJoueur.o"
+	@echo "... src/PhaseJoueur.i"
+	@echo "... src/PhaseJoueur.s"
+	@echo "... src/Tournoi.o"
+	@echo "... src/Tournoi.i"
+	@echo "... src/Tournoi.s"
+	@echo "... src/TournoiPhase.o"
+	@echo "... src/TournoiPhase.i"
+	@echo "... src/TournoiPhase.s"
 	@echo "... src/UtilDb.o"
 	@echo "... src/UtilDb.i"
 	@echo "... src/UtilDb.s"

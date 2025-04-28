@@ -245,4 +245,8 @@ CMakeFiles/Tournoi.dir/src/main.cpp.o: \
  /usr/include/c++/13/optional /usr/include/c++/13/numeric \
  /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h /usr/include/c++/13/any \
- /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/Dept.hpp
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/Dept.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/Tournoi.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/Phase.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/TournoiPhase.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/PhaseJoueur.hpp

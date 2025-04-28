@@ -1,16 +1,30 @@
 #include <iostream>
 #include "UtilDb.hpp" 
-#include "Dept.hpp"  // Inclure le fichier d'en-tête de la classe Dept
+
+#include "Dept.hpp" 
+#include "Tournoi.hpp" 
+#include "Phase.hpp" 
+#include "TournoiPhase.hpp" 
+#include "PhaseJoueur.hpp" 
+
+
+
+
 using namespace nlohmann;
 using namespace std;
 int main() {
     // Initialiser la connexion avec le fichier JSON
     UtilDb::init("database/data.json");
     Dept test(45 , "kiko");
+    Phase tour (1 , "hello") ;
+    TournoiPhase tourPhase(1 , 1000 , 1);
+    PhaseJoueur phaseJoueur(1 , 1000 , 1 , "00:00:00:00");
+    // tourPhase.save();
+    phaseJoueur.save();
 
     // test.save();
     // vector<Dept> depts = test.getAll();
-    // test.update();
+    // tourPhase.update();
     // test.del();
     // Dept  byId = Dept::getById(45);
     // cout << "ID: " << byId.getId() << ", Name: " << byId.getName() << endl;

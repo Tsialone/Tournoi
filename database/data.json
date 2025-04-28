@@ -1,13 +1,38 @@
 {
     "models": [
         {
+            "Phase": [
+                {
+                    "id": 1,
+                    "name": "hello"
+                }
+            ],
+            "PhaseJoueur": [
+                {
+                    "id": 1,
+                    "idJoueur": 1000,
+                    "idPhase": 1
+                }
+            ],
+            "Tournoi": [
+                {
+                    "id": 1,
+                    "name": "hello"
+                }
+            ],
+            "TournoiPhase": [
+                {
+                    "id": 1,
+                    "idPhase": 1,
+                    "idTournoi": 1000
+                }
+            ],
             "dept": [
                 {
                     "id": 45,
                     "name": "kiko"
                 }
-            ],
-            "phase": []
+            ]
         }
     ]
 }
