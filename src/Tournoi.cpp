@@ -88,7 +88,7 @@ void Tournoi::update() {
     nlohmann::json data = UtilDb::getData("models");
 
     bool updated = false;
-    cout << "taille : " << data.size() << endl;
+    // cout << "taille : " << data.size() << endl;
     for (auto& deptData : data[0]["Tournoi"]) {
         if (deptData["id"] == id_) { 
             deptData["name"] = name_; 

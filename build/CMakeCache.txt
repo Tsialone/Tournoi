@@ -213,15 +213,6 @@ Tournoi_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Tournoi_SOURCE_DIR:STATIC=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi
 
-//Value Computed by CMake
-Voiture_BINARY_DIR:STATIC=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build
-
-//Value Computed by CMake
-Voiture_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Voiture_SOURCE_DIR:STATIC=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi
-
 //Location of wxWidgets library configuration provider binary (wx-config).
 wxWidgets_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/wx-config
 

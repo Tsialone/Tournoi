@@ -4,6 +4,9 @@
 #include <string>
 #include <vector>
 #include <json.hpp>
+#include <wx/wx.h>
+#include "FormPanel.hpp"
+
 
 class Phase {
 public:
@@ -15,6 +18,14 @@ public:
 
     static std::vector<Phase> getAll(); 
     static  Phase getById(int id); 
+
+
+
+
+    void initListStat (FormPanel * from);
+    void deleteListStat ();
+    
+
     void del(); 
     void save();
     void update(); 

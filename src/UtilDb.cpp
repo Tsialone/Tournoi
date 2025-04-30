@@ -7,12 +7,12 @@ nlohmann::json UtilDb::data_;
 
 void UtilDb::init(const std::string& path) {
     if (!path.empty()) {
-        jsonPath_ = path;  // Si un chemin est fourni, on met à jour jsonPath_
+        jsonPath_ = path; 
     }
 
     std::ifstream inputFile(jsonPath_);
     if (inputFile.is_open()) {
-        inputFile >> data_;  // Charger les données à partir du fichier JSON
+        inputFile >> data_;
         inputFile.close();
     }
 }

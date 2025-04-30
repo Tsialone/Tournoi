@@ -1,60 +1,55 @@
-#include "PhaseJoueur.hpp"
+#include "GroupeJoueur.hpp"
 #include <iostream>
 #include "UtilDb.hpp"
 using namespace std;
 
 // Constructeur
-PhaseJoueur::PhaseJoueur(int id, int idJoueur , int idPhase , string temps ) : id_(id), idJoueur_(idJoueur) , idPhase_(idPhase) , temps_ (temps)  {}
+GroupeJoueur::GroupeJoueur(int id, int idJoueur , int idGroupe ) : id_(id), idJoueur_(idJoueur) , idGroupe_(idGroupe)  {}
 
 // Getter pour l'id
-int PhaseJoueur::getId() const {
+int GroupeJoueur::getId() const {
     return id_;
 }
-int PhaseJoueur::getIdJoueur() const {
+int GroupeJoueur::getIdJoueur() const {
     return idJoueur_;
 }
-int PhaseJoueur::getIdPhase() const {
-    return idPhase_;
-}
-string PhaseJoueur::getTemps() const {
-    return temps_;
+int GroupeJoueur::getIdGroupe() const {
+    return idGroupe_;
 }
 
 
 
-std::vector<PhaseJoueur> PhaseJoueur::getAll() {
-    std::vector<PhaseJoueur> departments;
+std::vector<GroupeJoueur> GroupeJoueur::getAll() {
+    std::vector<GroupeJoueur> departments;
 
     nlohmann::json data = UtilDb::getData("models");
 
     if (data.is_array()) {
-        for (const auto& deptData : data[0]["PhaseJoueur"]) {
+        for (const auto& deptData : data[0]["GroupeJoueur"]) {
             int id = deptData["id"];
             int idJoueur = deptData["idJoueur"];
-            int idPhase = deptData["idPhase"];
-            string temps = deptData["temps"];
-            departments.push_back(PhaseJoueur(id, idJoueur , idPhase , temps));
+            int idGroupe = deptData["idGroupe"];
+            departments.push_back(GroupeJoueur(id, idJoueur , idGroupe ));
         }
     }
 
     return departments;
 }
 
-PhaseJoueur  PhaseJoueur::getById(int id) {
+GroupeJoueur  GroupeJoueur::getById(int id) {
     nlohmann::json data = UtilDb::getData("models");
-    for (const auto& deptData : data[0]["PhaseJoueur"]) {
+    for (const auto& deptData : data[0]["GroupeJoueur"]) {
         if (deptData["id"] == id) {
             int id = deptData["id"];
             int idJoueur = deptData["idJoueur"];
-            int idPhase = deptData["idPhase"];
-            string temps = deptData["temps"];
-            return PhaseJoueur(id, idJoueur , idPhase , temps);
+            int idGroupe = deptData["idGroupe"];
+            return GroupeJoueur(id, idJoueur , idGroupe );
         }
     }
-    return PhaseJoueur(0, 0 , 0 , "00:00:00:00");
+    return GroupeJoueur(0, 0 , 0 );
 }
 
-void PhaseJoueur::del() {
+void GroupeJoueur::del() {
     nlohmann::json data = UtilDb::getData("models");
 
     if (!data.is_array()) {
@@ -62,7 +57,7 @@ void PhaseJoueur::del() {
         return;
     }
 
-    auto& deptArray = data[0]["PhaseJoueur"];
+    auto& deptArray = data[0]["GroupeJoueur"];
 
     if (!deptArray.is_array()) {
         std::cerr << "Erreur: 'dept' n'est pas un tableau JSON." << std::endl;
@@ -85,28 +80,27 @@ void PhaseJoueur::del() {
 }
 
 
-void PhaseJoueur::save() {
+void GroupeJoueur::save() {
     nlohmann::json data = UtilDb::getData("models");
 
     nlohmann::json deptJson = {
         {"id", this->id_},
         {"idJoueur", this->idJoueur_},
-        {"idPhase", this->idPhase_},
+        {"idGroupe", this->idGroupe_},
     };
-    data[0]["PhaseJoueur"].push_back(deptJson);
+    data[0]["GroupeJoueur"].push_back(deptJson);
     UtilDb::saveData(data);
 }
 // Méthode pour mettre à jour un département
-void PhaseJoueur::update() {
+void GroupeJoueur::update() {
     nlohmann::json data = UtilDb::getData("models");
 
     bool updated = false;
-    cout << "taille : " << data.size() << endl;
-    for (auto& deptData : data[0]["PhaseJoueur"]) {
+    // cout << "taille : " << data.size() << endl;
+    for (auto& deptData : data[0]["GroupeJoueur"]) {
         if (deptData["id"] == id_) { 
             deptData["idJoueur"] = idJoueur_;
-            deptData["idPhase"] = idPhase_; 
-            deptData["temps"] = temps_; 
+            deptData["idGroupe"] = idGroupe_; 
             updated = true;
             break; 
         }

@@ -1,0 +1,216 @@
+{
+    "models": [
+        {
+           
+            "Groupe": [
+                {
+                    "id": 1,
+                    "idVoisin": 1,
+                    "name": "A"
+                },
+                {
+                    "id": 2,
+                    "idVoisin": 1,
+                    "name": "B"
+                },
+                {
+                    "id": 3,
+                    "idVoisin": 2,
+                    "name": "C"
+                },
+                {
+                    "id": 4,
+                    "idVoisin": 2,
+                    "name": "D"
+                }
+              
+            ],
+            "GroupeJoueur": [
+                {
+                    "id": 1,
+                    "idGroupe": 1,
+                    "idJoueur": 1
+                },
+                {
+                    "id": 2,
+                    "idGroupe": 1,
+                    "idJoueur": 2
+                },
+                {
+                    "id": 3,
+                    "idGroupe": 1,
+                    "idJoueur": 3
+                },
+                {
+                    "id": 4,
+                    "idGroupe": 1,
+                    "idJoueur": 4
+                },
+                {
+                    "id": 5,
+                    "idGroupe": 2,
+                    "idJoueur": 5
+                },
+                {
+                    "id": 6,
+                    "idGroupe": 2,
+                    "idJoueur": 6
+                },
+                {
+                    "id": 7,
+                    "idGroupe": 2,
+                    "idJoueur": 7
+                },
+                {
+                    "id": 8,
+                    "idGroupe": 2,
+                    "idJoueur": 8
+                },
+                {
+                    "id": 9,
+                    "idGroupe": 3,
+                    "idJoueur": 9
+                },
+                {
+                    "id": 10,
+                    "idGroupe": 3,
+                    "idJoueur": 10
+                },
+                {
+                    "id": 11,
+                    "idGroupe": 3,
+                    "idJoueur": 11
+                },
+                {
+                    "id": 12,
+                    "idGroupe": 3,
+                    "idJoueur": 12
+                },
+                {
+                    "id": 13,
+                    "idGroupe": 4,
+                    "idJoueur": 13
+                },
+                {
+                    "id": 14,
+                    "idGroupe": 4,
+                    "idJoueur": 14
+                },
+                {
+                    "id": 15,
+                    "idGroupe": 4,
+                    "idJoueur": 15
+                },
+                {
+                    "id": 16,
+                    "idGroupe": 4,
+                    "idJoueur": 16
+                }
+              
+            ],
+            "Joueur": [
+                {
+                    "id": 1,
+                    "name": "J1"
+                },
+                {
+                    "id": 2,
+                    "name": "J2"
+                },
+                {
+                    "id": 3,
+                    "name": "J3"
+                },
+                {
+                    "id": 4,
+                    "name": "J4"
+                },
+                {
+                    "id": 5,
+                    "name": "J5"
+                },
+                {
+                    "id": 6,
+                    "name": "J6"
+                },
+                {
+                    "id": 7,
+                    "name": "J7"
+                },
+                {
+                    "id": 8,
+                    "name": "J8"
+                },
+                {
+                    "id": 9,
+                    "name": "J9"
+                },
+                {
+                    "id": 10,
+                    "name": "J10"
+                },
+                {
+                    "id": 11,
+                    "name": "J11"
+                },
+                {
+                    "id": 12,
+                    "name": "J12"
+                },
+                {
+                    "id": 13,
+                    "name": "J13"
+                },
+                {
+                    "id": 14,
+                    "name": "J14"
+                },
+                {
+                    "id": 15,
+                    "name": "J15"
+                },
+                {
+                    "id": 16,
+                    "name": "J16"
+                }
+            ],
+          
+            "Phase": [
+                {
+                    "id": 1,
+                    "name": "eleminatoir"
+                },
+                {
+                    "id": 2,
+                    "name": "1/4"
+                },
+                {
+                    "id": 3,
+                    "name": "1/2"
+                },
+                {
+                    "id": 4,
+                    "name": "Finale"
+                }
+            ],
+            "PhaseGroupe": [
+                {
+                    "id": 1,
+                    "idGroupe": 5,
+                    "idPhase": 1
+                },
+                {
+                    "id": 2,
+                    "idGroupe": 6,
+                    "idPhase": 1
+                }
+            ],
+            "Tournoi": [
+                {
+                    "id": 1,
+                    "name": "t1"
+                }
+            ]
+        }
+    ]
+}

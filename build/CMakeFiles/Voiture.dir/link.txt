@@ -1,1 +1,0 @@
-/usr/bin/c++  -pthread CMakeFiles/Voiture.dir/src/UtilDb.cpp.o CMakeFiles/Voiture.dir/src/main.cpp.o -o Voiture  -L/usr/lib/x86_64-linux-gnu -pthread -lwx_gtk3u_core-3.2 -lwx_baseu-3.2 

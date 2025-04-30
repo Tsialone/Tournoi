@@ -69,10 +69,38 @@ include CMakeFiles/Tournoi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tournoi.dir/flags.make
 
+CMakeFiles/Tournoi.dir/src/Course.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/Course.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Course.cpp
+CMakeFiles/Tournoi.dir/src/Course.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tournoi.dir/src/Course.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Course.cpp.o -MF CMakeFiles/Tournoi.dir/src/Course.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Course.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Course.cpp
+
+CMakeFiles/Tournoi.dir/src/Course.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/Course.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Course.cpp > CMakeFiles/Tournoi.dir/src/Course.cpp.i
+
+CMakeFiles/Tournoi.dir/src/Course.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Course.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Course.cpp -o CMakeFiles/Tournoi.dir/src/Course.cpp.s
+
+CMakeFiles/Tournoi.dir/src/Data.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/Data.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Data.cpp
+CMakeFiles/Tournoi.dir/src/Data.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tournoi.dir/src/Data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Data.cpp.o -MF CMakeFiles/Tournoi.dir/src/Data.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Data.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Data.cpp
+
+CMakeFiles/Tournoi.dir/src/Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/Data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Data.cpp > CMakeFiles/Tournoi.dir/src/Data.cpp.i
+
+CMakeFiles/Tournoi.dir/src/Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Data.cpp -o CMakeFiles/Tournoi.dir/src/Data.cpp.s
+
 CMakeFiles/Tournoi.dir/src/Dept.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/Dept.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Dept.cpp
 CMakeFiles/Tournoi.dir/src/Dept.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tournoi.dir/src/Dept.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tournoi.dir/src/Dept.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Dept.cpp.o -MF CMakeFiles/Tournoi.dir/src/Dept.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Dept.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Dept.cpp
 
 CMakeFiles/Tournoi.dir/src/Dept.cpp.i: cmake_force
@@ -83,10 +111,66 @@ CMakeFiles/Tournoi.dir/src/Dept.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Dept.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Dept.cpp -o CMakeFiles/Tournoi.dir/src/Dept.cpp.s
 
+CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/FormPanel.cpp
+CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o -MF CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o.d -o CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/FormPanel.cpp
+
+CMakeFiles/Tournoi.dir/src/FormPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/FormPanel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/FormPanel.cpp > CMakeFiles/Tournoi.dir/src/FormPanel.cpp.i
+
+CMakeFiles/Tournoi.dir/src/FormPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/FormPanel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/FormPanel.cpp -o CMakeFiles/Tournoi.dir/src/FormPanel.cpp.s
+
+CMakeFiles/Tournoi.dir/src/Groupe.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/Groupe.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Groupe.cpp
+CMakeFiles/Tournoi.dir/src/Groupe.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tournoi.dir/src/Groupe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Groupe.cpp.o -MF CMakeFiles/Tournoi.dir/src/Groupe.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Groupe.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Groupe.cpp
+
+CMakeFiles/Tournoi.dir/src/Groupe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/Groupe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Groupe.cpp > CMakeFiles/Tournoi.dir/src/Groupe.cpp.i
+
+CMakeFiles/Tournoi.dir/src/Groupe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Groupe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Groupe.cpp -o CMakeFiles/Tournoi.dir/src/Groupe.cpp.s
+
+CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/GroupeJoueur.cpp
+CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o -MF CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o.d -o CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/GroupeJoueur.cpp
+
+CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/GroupeJoueur.cpp > CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.i
+
+CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/GroupeJoueur.cpp -o CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.s
+
+CMakeFiles/Tournoi.dir/src/Input.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/Input.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Input.cpp
+CMakeFiles/Tournoi.dir/src/Input.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tournoi.dir/src/Input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Input.cpp.o -MF CMakeFiles/Tournoi.dir/src/Input.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Input.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Input.cpp
+
+CMakeFiles/Tournoi.dir/src/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/Input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Input.cpp > CMakeFiles/Tournoi.dir/src/Input.cpp.i
+
+CMakeFiles/Tournoi.dir/src/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Input.cpp -o CMakeFiles/Tournoi.dir/src/Input.cpp.s
+
 CMakeFiles/Tournoi.dir/src/Joueur.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/Joueur.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Joueur.cpp
 CMakeFiles/Tournoi.dir/src/Joueur.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tournoi.dir/src/Joueur.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tournoi.dir/src/Joueur.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Joueur.cpp.o -MF CMakeFiles/Tournoi.dir/src/Joueur.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Joueur.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Joueur.cpp
 
 CMakeFiles/Tournoi.dir/src/Joueur.cpp.i: cmake_force
@@ -97,10 +181,38 @@ CMakeFiles/Tournoi.dir/src/Joueur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Joueur.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Joueur.cpp -o CMakeFiles/Tournoi.dir/src/Joueur.cpp.s
 
+CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/JoueurCourse.cpp
+CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o -MF CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o.d -o CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/JoueurCourse.cpp
+
+CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/JoueurCourse.cpp > CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.i
+
+CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/JoueurCourse.cpp -o CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.s
+
+CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/MainFarme.cpp
+CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o -MF CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o.d -o CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/MainFarme.cpp
+
+CMakeFiles/Tournoi.dir/src/MainFarme.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/MainFarme.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/MainFarme.cpp > CMakeFiles/Tournoi.dir/src/MainFarme.cpp.i
+
+CMakeFiles/Tournoi.dir/src/MainFarme.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/MainFarme.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/MainFarme.cpp -o CMakeFiles/Tournoi.dir/src/MainFarme.cpp.s
+
 CMakeFiles/Tournoi.dir/src/Phase.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/Phase.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Phase.cpp
 CMakeFiles/Tournoi.dir/src/Phase.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tournoi.dir/src/Phase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Tournoi.dir/src/Phase.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Phase.cpp.o -MF CMakeFiles/Tournoi.dir/src/Phase.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Phase.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Phase.cpp
 
 CMakeFiles/Tournoi.dir/src/Phase.cpp.i: cmake_force
@@ -111,24 +223,24 @@ CMakeFiles/Tournoi.dir/src/Phase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/Phase.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Phase.cpp -o CMakeFiles/Tournoi.dir/src/Phase.cpp.s
 
-CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o: CMakeFiles/Tournoi.dir/flags.make
-CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseJoueur.cpp
-CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o -MF CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o.d -o CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseJoueur.cpp
+CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o: CMakeFiles/Tournoi.dir/flags.make
+CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseGroupe.cpp
+CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o -MF CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o.d -o CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseGroupe.cpp
 
-CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseJoueur.cpp > CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.i
+CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseGroupe.cpp > CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.i
 
-CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseJoueur.cpp -o CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.s
+CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseGroupe.cpp -o CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.s
 
 CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Tournoi.cpp
 CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o -MF CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o.d -o CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/Tournoi.cpp
 
 CMakeFiles/Tournoi.dir/src/Tournoi.cpp.i: cmake_force
@@ -142,7 +254,7 @@ CMakeFiles/Tournoi.dir/src/Tournoi.cpp.s: cmake_force
 CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/TournoiPhase.cpp
 CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o -MF CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o.d -o CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/TournoiPhase.cpp
 
 CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.i: cmake_force
@@ -156,7 +268,7 @@ CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.s: cmake_force
 CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/UtilDb.cpp
 CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o -MF CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o.d -o CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/UtilDb.cpp
 
 CMakeFiles/Tournoi.dir/src/UtilDb.cpp.i: cmake_force
@@ -170,7 +282,7 @@ CMakeFiles/Tournoi.dir/src/UtilDb.cpp.s: cmake_force
 CMakeFiles/Tournoi.dir/src/main.cpp.o: CMakeFiles/Tournoi.dir/flags.make
 CMakeFiles/Tournoi.dir/src/main.cpp.o: /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/main.cpp
 CMakeFiles/Tournoi.dir/src/main.cpp.o: CMakeFiles/Tournoi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tournoi.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Tournoi.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tournoi.dir/src/main.cpp.o -MF CMakeFiles/Tournoi.dir/src/main.cpp.o.d -o CMakeFiles/Tournoi.dir/src/main.cpp.o -c /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/main.cpp
 
 CMakeFiles/Tournoi.dir/src/main.cpp.i: cmake_force
@@ -183,10 +295,18 @@ CMakeFiles/Tournoi.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Tournoi
 Tournoi_OBJECTS = \
+"CMakeFiles/Tournoi.dir/src/Course.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/Data.cpp.o" \
 "CMakeFiles/Tournoi.dir/src/Dept.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/Groupe.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/Input.cpp.o" \
 "CMakeFiles/Tournoi.dir/src/Joueur.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o" \
 "CMakeFiles/Tournoi.dir/src/Phase.cpp.o" \
-"CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o" \
+"CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o" \
 "CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o" \
 "CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o" \
 "CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o" \
@@ -195,17 +315,25 @@ Tournoi_OBJECTS = \
 # External object files for target Tournoi
 Tournoi_EXTERNAL_OBJECTS =
 
+Tournoi: CMakeFiles/Tournoi.dir/src/Course.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/Data.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/Dept.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/Groupe.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/Input.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/Joueur.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/Phase.cpp.o
-Tournoi: CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o
+Tournoi: CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/Tournoi.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/TournoiPhase.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/UtilDb.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/src/main.cpp.o
 Tournoi: CMakeFiles/Tournoi.dir/build.make
 Tournoi: CMakeFiles/Tournoi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Tournoi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Tournoi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tournoi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

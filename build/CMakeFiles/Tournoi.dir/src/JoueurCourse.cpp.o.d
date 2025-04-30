@@ -1,7 +1,7 @@
-CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o: \
- /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/PhaseJoueur.cpp \
+CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o: \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/src/JoueurCourse.cpp \
  /usr/include/stdc-predef.h \
- /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/PhaseJoueur.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/JoueurCourse.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

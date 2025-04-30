@@ -120,6 +120,7 @@ CMakeFiles/Tournoi.dir/src/Joueur.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/Groupe.hpp \
  /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/json.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
@@ -247,5 +248,9 @@ CMakeFiles/Tournoi.dir/src/Joueur.cpp.o: \
  /usr/include/c++/13/optional /usr/include/c++/13/numeric \
  /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h /usr/include/c++/13/any \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/Joueur.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/json.hpp \
  /usr/include/c++/13/iostream \
- /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/UtilDb.hpp
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/UtilDb.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/JoueurCourse.hpp \
+ /media/tsialonina/MyBuntu/ITU/L2/S4/INF/Prog/C++/Tournoi/include/GroupeJoueur.hpp

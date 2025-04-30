@@ -18,10 +18,10 @@ std::string Dept::getName() const {
 std::vector<Dept> Dept::getAll() {
     std::vector<Dept> departments;
 
-    nlohmann::json data = UtilDb::getData("dept");
+    nlohmann::json data = UtilDb::getData("models");
 
     if (data.is_array()) {
-        for (const auto& deptData : data) {
+        for (const auto& deptData : data[0]["Dept"]) {
             int id = deptData["id"];
             std::string name = deptData["name"];
             departments.push_back(Dept(id, name));
@@ -88,7 +88,7 @@ void Dept::update() {
     nlohmann::json data = UtilDb::getData("models");
 
     bool updated = false;
-    cout << "taille : " << data.size() << endl;
+    // cout << "taille : " << data.size() << endl;
     for (auto& deptData : data[0]["dept"]) {
         if (deptData["id"] == id_) { 
             deptData["name"] = name_; 

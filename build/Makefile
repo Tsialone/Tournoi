@@ -174,6 +174,54 @@ Tournoi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/build
 .PHONY : Tournoi/fast
 
+src/Course.o: src/Course.cpp.o
+.PHONY : src/Course.o
+
+# target to build an object file
+src/Course.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Course.cpp.o
+.PHONY : src/Course.cpp.o
+
+src/Course.i: src/Course.cpp.i
+.PHONY : src/Course.i
+
+# target to preprocess a source file
+src/Course.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Course.cpp.i
+.PHONY : src/Course.cpp.i
+
+src/Course.s: src/Course.cpp.s
+.PHONY : src/Course.s
+
+# target to generate assembly for a file
+src/Course.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Course.cpp.s
+.PHONY : src/Course.cpp.s
+
+src/Data.o: src/Data.cpp.o
+.PHONY : src/Data.o
+
+# target to build an object file
+src/Data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Data.cpp.o
+.PHONY : src/Data.cpp.o
+
+src/Data.i: src/Data.cpp.i
+.PHONY : src/Data.i
+
+# target to preprocess a source file
+src/Data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Data.cpp.i
+.PHONY : src/Data.cpp.i
+
+src/Data.s: src/Data.cpp.s
+.PHONY : src/Data.s
+
+# target to generate assembly for a file
+src/Data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Data.cpp.s
+.PHONY : src/Data.cpp.s
+
 src/Dept.o: src/Dept.cpp.o
 .PHONY : src/Dept.o
 
@@ -197,6 +245,102 @@ src/Dept.s: src/Dept.cpp.s
 src/Dept.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Dept.cpp.s
 .PHONY : src/Dept.cpp.s
+
+src/FormPanel.o: src/FormPanel.cpp.o
+.PHONY : src/FormPanel.o
+
+# target to build an object file
+src/FormPanel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/FormPanel.cpp.o
+.PHONY : src/FormPanel.cpp.o
+
+src/FormPanel.i: src/FormPanel.cpp.i
+.PHONY : src/FormPanel.i
+
+# target to preprocess a source file
+src/FormPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/FormPanel.cpp.i
+.PHONY : src/FormPanel.cpp.i
+
+src/FormPanel.s: src/FormPanel.cpp.s
+.PHONY : src/FormPanel.s
+
+# target to generate assembly for a file
+src/FormPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/FormPanel.cpp.s
+.PHONY : src/FormPanel.cpp.s
+
+src/Groupe.o: src/Groupe.cpp.o
+.PHONY : src/Groupe.o
+
+# target to build an object file
+src/Groupe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Groupe.cpp.o
+.PHONY : src/Groupe.cpp.o
+
+src/Groupe.i: src/Groupe.cpp.i
+.PHONY : src/Groupe.i
+
+# target to preprocess a source file
+src/Groupe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Groupe.cpp.i
+.PHONY : src/Groupe.cpp.i
+
+src/Groupe.s: src/Groupe.cpp.s
+.PHONY : src/Groupe.s
+
+# target to generate assembly for a file
+src/Groupe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Groupe.cpp.s
+.PHONY : src/Groupe.cpp.s
+
+src/GroupeJoueur.o: src/GroupeJoueur.cpp.o
+.PHONY : src/GroupeJoueur.o
+
+# target to build an object file
+src/GroupeJoueur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.o
+.PHONY : src/GroupeJoueur.cpp.o
+
+src/GroupeJoueur.i: src/GroupeJoueur.cpp.i
+.PHONY : src/GroupeJoueur.i
+
+# target to preprocess a source file
+src/GroupeJoueur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.i
+.PHONY : src/GroupeJoueur.cpp.i
+
+src/GroupeJoueur.s: src/GroupeJoueur.cpp.s
+.PHONY : src/GroupeJoueur.s
+
+# target to generate assembly for a file
+src/GroupeJoueur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/GroupeJoueur.cpp.s
+.PHONY : src/GroupeJoueur.cpp.s
+
+src/Input.o: src/Input.cpp.o
+.PHONY : src/Input.o
+
+# target to build an object file
+src/Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Input.cpp.o
+.PHONY : src/Input.cpp.o
+
+src/Input.i: src/Input.cpp.i
+.PHONY : src/Input.i
+
+# target to preprocess a source file
+src/Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Input.cpp.i
+.PHONY : src/Input.cpp.i
+
+src/Input.s: src/Input.cpp.s
+.PHONY : src/Input.s
+
+# target to generate assembly for a file
+src/Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Input.cpp.s
+.PHONY : src/Input.cpp.s
 
 src/Joueur.o: src/Joueur.cpp.o
 .PHONY : src/Joueur.o
@@ -222,6 +366,54 @@ src/Joueur.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Joueur.cpp.s
 .PHONY : src/Joueur.cpp.s
 
+src/JoueurCourse.o: src/JoueurCourse.cpp.o
+.PHONY : src/JoueurCourse.o
+
+# target to build an object file
+src/JoueurCourse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.o
+.PHONY : src/JoueurCourse.cpp.o
+
+src/JoueurCourse.i: src/JoueurCourse.cpp.i
+.PHONY : src/JoueurCourse.i
+
+# target to preprocess a source file
+src/JoueurCourse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.i
+.PHONY : src/JoueurCourse.cpp.i
+
+src/JoueurCourse.s: src/JoueurCourse.cpp.s
+.PHONY : src/JoueurCourse.s
+
+# target to generate assembly for a file
+src/JoueurCourse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/JoueurCourse.cpp.s
+.PHONY : src/JoueurCourse.cpp.s
+
+src/MainFarme.o: src/MainFarme.cpp.o
+.PHONY : src/MainFarme.o
+
+# target to build an object file
+src/MainFarme.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/MainFarme.cpp.o
+.PHONY : src/MainFarme.cpp.o
+
+src/MainFarme.i: src/MainFarme.cpp.i
+.PHONY : src/MainFarme.i
+
+# target to preprocess a source file
+src/MainFarme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/MainFarme.cpp.i
+.PHONY : src/MainFarme.cpp.i
+
+src/MainFarme.s: src/MainFarme.cpp.s
+.PHONY : src/MainFarme.s
+
+# target to generate assembly for a file
+src/MainFarme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/MainFarme.cpp.s
+.PHONY : src/MainFarme.cpp.s
+
 src/Phase.o: src/Phase.cpp.o
 .PHONY : src/Phase.o
 
@@ -246,29 +438,29 @@ src/Phase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/Phase.cpp.s
 .PHONY : src/Phase.cpp.s
 
-src/PhaseJoueur.o: src/PhaseJoueur.cpp.o
-.PHONY : src/PhaseJoueur.o
+src/PhaseGroupe.o: src/PhaseGroupe.cpp.o
+.PHONY : src/PhaseGroupe.o
 
 # target to build an object file
-src/PhaseJoueur.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.o
-.PHONY : src/PhaseJoueur.cpp.o
+src/PhaseGroupe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.o
+.PHONY : src/PhaseGroupe.cpp.o
 
-src/PhaseJoueur.i: src/PhaseJoueur.cpp.i
-.PHONY : src/PhaseJoueur.i
+src/PhaseGroupe.i: src/PhaseGroupe.cpp.i
+.PHONY : src/PhaseGroupe.i
 
 # target to preprocess a source file
-src/PhaseJoueur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.i
-.PHONY : src/PhaseJoueur.cpp.i
+src/PhaseGroupe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.i
+.PHONY : src/PhaseGroupe.cpp.i
 
-src/PhaseJoueur.s: src/PhaseJoueur.cpp.s
-.PHONY : src/PhaseJoueur.s
+src/PhaseGroupe.s: src/PhaseGroupe.cpp.s
+.PHONY : src/PhaseGroupe.s
 
 # target to generate assembly for a file
-src/PhaseJoueur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseJoueur.cpp.s
-.PHONY : src/PhaseJoueur.cpp.s
+src/PhaseGroupe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tournoi.dir/build.make CMakeFiles/Tournoi.dir/src/PhaseGroupe.cpp.s
+.PHONY : src/PhaseGroupe.cpp.s
 
 src/Tournoi.o: src/Tournoi.cpp.o
 .PHONY : src/Tournoi.o
@@ -379,18 +571,42 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Tournoi"
+	@echo "... src/Course.o"
+	@echo "... src/Course.i"
+	@echo "... src/Course.s"
+	@echo "... src/Data.o"
+	@echo "... src/Data.i"
+	@echo "... src/Data.s"
 	@echo "... src/Dept.o"
 	@echo "... src/Dept.i"
 	@echo "... src/Dept.s"
+	@echo "... src/FormPanel.o"
+	@echo "... src/FormPanel.i"
+	@echo "... src/FormPanel.s"
+	@echo "... src/Groupe.o"
+	@echo "... src/Groupe.i"
+	@echo "... src/Groupe.s"
+	@echo "... src/GroupeJoueur.o"
+	@echo "... src/GroupeJoueur.i"
+	@echo "... src/GroupeJoueur.s"
+	@echo "... src/Input.o"
+	@echo "... src/Input.i"
+	@echo "... src/Input.s"
 	@echo "... src/Joueur.o"
 	@echo "... src/Joueur.i"
 	@echo "... src/Joueur.s"
+	@echo "... src/JoueurCourse.o"
+	@echo "... src/JoueurCourse.i"
+	@echo "... src/JoueurCourse.s"
+	@echo "... src/MainFarme.o"
+	@echo "... src/MainFarme.i"
+	@echo "... src/MainFarme.s"
 	@echo "... src/Phase.o"
 	@echo "... src/Phase.i"
 	@echo "... src/Phase.s"
-	@echo "... src/PhaseJoueur.o"
-	@echo "... src/PhaseJoueur.i"
-	@echo "... src/PhaseJoueur.s"
+	@echo "... src/PhaseGroupe.o"
+	@echo "... src/PhaseGroupe.i"
+	@echo "... src/PhaseGroupe.s"
 	@echo "... src/Tournoi.o"
 	@echo "... src/Tournoi.i"
 	@echo "... src/Tournoi.s"
